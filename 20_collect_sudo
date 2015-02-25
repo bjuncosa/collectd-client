@@ -1,0 +1,1 @@
+collect ALL=(ALL:ALL) NOPASSWD:/bin/cat /var/lib/docker/containers/*
