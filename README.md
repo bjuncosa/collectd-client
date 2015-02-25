@@ -1,7 +1,8 @@
 How to run it
 =============
 
-```docker run -ti -d \
+```
+docker run -ti -d \
   --privileged \
   --volume=/:/rootfs:ro \
   --volume=/proc:/mnt/host_proc:ro \
