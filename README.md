@@ -7,7 +7,6 @@ docker run -ti -d \
   --volume=/:/rootfs:ro \
   --volume=/proc:/mnt/host_proc:ro \
   --volume=/sys:/sys:ro \
-  --volume=/tmp/rrd:/var/lib/collectd/rrd:rw \
   --volume=/var/lib/docker/:/var/lib/docker:ro \
   --name=<host-hostname> \
   --hostname=<host-hostname> \
