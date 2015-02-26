@@ -16,6 +16,7 @@ RUN apt-get update && \
       --enable-exec \
       --enable-interface \
       --enable-load \
+      --enable-logfile \
       --enable-memory \
       --enable-network \
       --enable-processes \
