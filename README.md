@@ -14,3 +14,8 @@ docker run -ti -d \
 ```
 
 To configure the right server to send the data, you can mount a volume on /etc/collectd/collectd.conf.d/network.conf with the right configuration.
+
+TODO
+====
+
+* Set collectd master name using an environment variable.
