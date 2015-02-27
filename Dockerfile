@@ -48,8 +48,6 @@ ADD collectd/collectd.conf /etc/collectd/
 ADD 20_collect_sudo /etc/sudoers.d/
 RUN chmod 0440 /etc/sudoers.d/20_collect_sudo
 
-VOLUME [ "/var/lib/collectd/rrd" ]
-
 ADD start.sh /usr/local/bin/start.sh
 RUN chmod a+x /usr/local/bin/start.sh
 ENTRYPOINT [ "/usr/local/bin/start.sh" ]
